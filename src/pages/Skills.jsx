@@ -1,13 +1,19 @@
 import React from "react";
 import React2 from "../assets/react.png";
+import Mongo2 from "../assets/mongodb.jpeg"
+import express2 from "../assets/express.png"
+import Node2 from "../assets/node.png"
+import JS from "../assets/js.png";
+import CSS from "../assets/tailwind.png"
+
 
 const skills = [
   { name: "React", img: React2 },
-  { name: "JavaScript", img: React2 },
-  { name: "Node.js", img: React2 },
-  { name: "MongoDB", img: React2 },
-  { name: "Tailwind CSS", img: React2 },
-  { name: "Express.js", img: React2 },
+  { name: "JavaScript", img: JS },
+  { name: "Node.js", img: Node2 },
+  { name: "MongoDB", img: Mongo2 },
+  { name: "Tailwind CSS", img: CSS },
+  { name: "Express.js", img: express2 },
 ];
 
 const Projects = () => {
