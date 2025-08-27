@@ -1,12 +1,12 @@
-import React from 'react'
-import slidebar from '../Component/slidebar'
+import React from "react";
+import Slidebar from "../Component/slidebar";
 
 const Homepage = () => {
   return (
-    <div className='flex'>
-      <div> <slidebar/> </div>
-    </div>
-  )
-}
 
-export default Homepage
+        <Slidebar/>
+
+  );
+};
+
+export default Homepage;

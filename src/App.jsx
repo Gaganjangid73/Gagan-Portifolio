@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Navbar from "./Component/Navbar";
 import Homepage from "./pages/Homepage";
+import Slidebar from "./Component/slidebar";
+
 
 function App() {
   return (
