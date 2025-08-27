@@ -25,7 +25,7 @@ const Skills = () => {
           Skills
         </h1>
         <h1 className="font-bold text-[100px] text-[rgba(182,180,189,0.3)] leading-none m-0">
-          I'VE
+          I HAVE
         </h1>
       </div>
 
