@@ -22,7 +22,7 @@ const Skills = () => {
       {/* Heading */}
       <div>
         <h1 className="text-white text-[100px] font-bold leading-none m-0">
-          Skills
+          SKILLS
         </h1>
         <h1 className="font-bold text-[100px] text-[rgba(182,180,189,0.3)] leading-none m-0">
           I HAVE
