@@ -23,6 +23,7 @@ const Homepage = () => {
           <Outlet />
         </div>
       </div>
+       <p className="text-white text-center mt-5 mb-5">Made By <span className="text-orange-400"> Gagan</span>  With ❤️</p>
     </div>
   );
 };
