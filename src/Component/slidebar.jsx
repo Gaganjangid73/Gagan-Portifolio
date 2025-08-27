@@ -17,7 +17,7 @@ const Slidebar = () => {
       <h1 className=" text-center text-4xl font-semibold mt-5 font-sans">
         Gagan Jangid
       </h1>
-      <h2 className="text-center mt-[30px] font-sans font-medium text-[#6A6B6C]">
+      <h2 className="text-center mt-30 font-sans font-medium text-[#6A6B6C]">
         A Software Engineer who has developed countless innovative solutions.
       </h2>
       <div className=" flex items-center justify-evenly text-2xl text-amber-600 mt-10 w-[300px]">
