@@ -7,13 +7,13 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 const Slidebar = () => {
   return (
     <div className=" w-[320px] h-[600px] bg-white rounded-2xl flex flex-col ml-[110px]">
-      <div className="flex mt-12 justify-center">
-        <img
-          className="rounded-2xl w-[250px] h-[180px] border-black border-[1px] shadow-2xl"
-          src={photo}
-          alt="Gagan-image"
-        />
-      </div>
+              <div className="flex mt-12 justify-center">
+          <img
+            className="rounded-2xl w-[250px] h-[180px] border-black border-[1px] shadow-2xl"
+            src={photo}
+            alt="Gagan-image"
+          />
+        </div>
       <h1 className=" text-center text-4xl font-semibold mt-5 font-sans">
         Gagan Jangid
       </h1>
