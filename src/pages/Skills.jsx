@@ -1,5 +1,5 @@
 import React from "react";
-import React2 from "../assets/React.png";
+import React2 from "../assets/react.png";
 import Mongo2 from "../assets/mongodb.jpeg"
 import express2 from "../assets/express.png"
 import Node2 from "../assets/node.png"
