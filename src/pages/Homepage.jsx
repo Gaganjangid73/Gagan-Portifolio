@@ -3,9 +3,10 @@ import Slidebar from "../Component/slidebar";
 
 const Homepage = () => {
   return (
-
-        <Slidebar/>
-
+    <div>
+      <div><Slidebar/></div>
+      <div></div>
+    </div>
   );
 };
 

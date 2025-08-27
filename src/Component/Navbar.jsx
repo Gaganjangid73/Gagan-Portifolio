@@ -9,11 +9,11 @@ const Navbar = () => {
   return (
     <div>
       <h1 className="bg-[#FFFFFF20] w-[300px] rounded-2xl flex justify-evenly mt-8 h-12 gap-3 items-center text-white font-semibold text-xl">
-        <BiHomeAlt /> 
-        <FaRegFolder /> 
-        <MdOutlineWorkOutline /> 
-        <FiTool /> 
-        <FaRegNoteSticky />
+        <BiHomeAlt cursor="pointer"/> 
+        <FaRegFolder cursor="pointer" /> 
+        <MdOutlineWorkOutline cursor="pointer" /> 
+        <FiTool  cursor="pointer"/> 
+        <FaRegNoteSticky  cursor="pointer"/>
       </h1>
     </div>
   );
