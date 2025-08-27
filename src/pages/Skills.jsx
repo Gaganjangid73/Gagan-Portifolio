@@ -16,7 +16,7 @@ const skills = [
   { name: "Express.js", img: express2 },
 ];
 
-const Projects = () => {
+const Skills = () => {
   return (
     <div className="w-full px-6">
       {/* Heading */}
@@ -53,4 +53,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Skills;
