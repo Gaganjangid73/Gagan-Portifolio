@@ -7,8 +7,8 @@ import { FaRegNoteSticky } from "react-icons/fa6";
 
 const Navbar = () => {
   return (
-    <div>
-      <h1 className="bg-[#FFFFFF20] w-[300px] rounded-2xl flex justify-evenly mt-8 h-12 gap-3 items-center text-white font-semibold text-xl">
+    <div className="mt-8">
+      <h1 className="bg-[#FFFFFF20] w-[300px] rounded-2xl flex justify-evenly h-12 gap-3 items-center text-white font-semibold text-xl">
         <BiHomeAlt cursor="pointer"/> 
         <FaRegFolder cursor="pointer" /> 
         <MdOutlineWorkOutline cursor="pointer" /> 

@@ -1,17 +1,23 @@
-import { useState } from "react";
-import Navbar from "./Component/Navbar";
 import Homepage from "./pages/Homepage";
-import Slidebar from "./Component/slidebar";
-
+import Experience from "./pages/experience";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Projects from "./pages/projects";
+import Skills from "./pages/Skills"
 
 function App() {
   return (
-    <div className="bg-black w-full h-screen">
-      <div className="flex flex-1 justify-center">
-        <Navbar />
-      </div>
-      <div> <Homepage/> </div>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        {/* Parent Route */}
+        <Route path="/" element={<Homepage />}>
+          <Route index element={<div className="text-white mt-20 px-6">Welcome!</div>} />
+          {/* Nested Route */}
+          <Route path="experience" element={<Experience />} />
+           <Route path="projects" element={<Projects />} />
+           <Route path="skills" element={<Skills />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
