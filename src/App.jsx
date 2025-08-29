@@ -6,6 +6,7 @@ import Skills from "./pages/Skills"
 import Home from "./pages/Home"
 
 function App() {
+  //  this is portfolio is responsive for laptop or a big screen 
   return (
     <BrowserRouter>
       <Routes>
